@@ -21,7 +21,7 @@
 # definition file).
 #
 #TWRP
-BUILD_TWRP := false
+BUILD_TWRP := true
 
 #AOSP SU
 WITH_SU := false
