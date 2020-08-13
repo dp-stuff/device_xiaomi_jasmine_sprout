@@ -21,11 +21,11 @@
 # definition file).
 #
 
-# inherit MI A2 EvolutionX device config
+# inherit MI A2 Resurrection Remix device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_jasmine_sprout.mk
+    $(LOCAL_DIR)/rr_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_jasmine_sprout-eng \
-    aosp_jasmine_sprout-userdebug \
-    aosp_jasmine_sprout-user
+    rr_jasmine_sprout-eng \
+    rr_jasmine_sprout-userdebug \
+    rr_jasmine_sprout-user
