@@ -112,3 +112,6 @@ PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := Mi A2 (RR)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
+
+#TWRP
+BUILD_TWRP := false
