@@ -21,11 +21,11 @@
 # definition file).
 #
 
-# inherit MI A2 lineage device config
+# inherit device config for RevengeOS
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_jasmine_sprout.mk
+    $(LOCAL_DIR)/revengeos_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    carbon_jasmine_sprout-eng \
-    carbon_jasmine_sprout-userdebug \
-		carbon_jasmine_sprout-eng
+    revengeos_jasmine_sprout-user \
+    revengeos_jasmine_sprout-userdebug \
+    revengeos_jasmine_sprout-eng
